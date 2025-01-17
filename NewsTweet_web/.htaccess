@@ -1,0 +1,86 @@
+RewriteEngine on
+RewriteBase /
+
+RewriteRule ^news/(.*)/$ news.php?id=$1 [QSA,L]
+RewriteRule ^news/(.*)$ news.php?id=$1 [QSA,L]
+
+RewriteRule ^all$ all.php [L]
+RewriteRule ^all/$ all.php [L]
+
+RewriteRule ^entame$ entame_web.php [L]
+RewriteRule ^entame/$ entame_web.php [L]
+
+RewriteRule ^anime$ anime_web.php [L]
+RewriteRule ^anime/$ anime_web.php [L]
+
+RewriteRule ^it$ it_web.php [L]
+RewriteRule ^it/$ it_web.php [L]
+
+RewriteRule ^learn$ learn_web.php [L]
+RewriteRule ^learn/$ learn_web.php [L]
+
+RewriteRule ^life$ life_web.php [L]
+RewriteRule ^life/$ life_web.php [L]
+
+RewriteRule ^politics$ politics_web.php [L]
+RewriteRule ^politics/$ politics_web.php [L]
+
+RewriteRule ^society$ society_web.php [L]
+RewriteRule ^society/$ society_web.php [L]
+
+RewriteRule ^about$ about.php [L]
+RewriteRule ^about/$ about.php [L]
+
+RewriteRule ^contact$ contact.php [L]
+RewriteRule ^contact/$ contact.php [L]
+
+RewriteRule ^privacy$ privacy.php [L]
+RewriteRule ^privacy/$ privacy.php [L]
+
+RewriteRule ^media/list$ media_list.php [L]
+RewriteRule ^media/list/$ media_list.php [L]
+
+RewriteRule ^ranking/today/(.*)/(.*)/$ ranking_today.php?category=$1&date=$2 [QSA,L]
+RewriteRule ^ranking/today/(.*)/(.*)$ ranking_today.php?category=$1&date=$2 [QSA,L]
+
+RewriteRule ^ranking/month/(.*)/(.*)/$ ranking_month.php?category=$1&date=$2 [QSA,L]
+RewriteRule ^ranking/month/(.*)/(.*)$ ranking_month.php?category=$1&date=$2 [QSA,L]
+
+RewriteRule ^media/site/(.*)/$ media.php?site=$1 [QSA,L]
+RewriteRule ^media/site/(.*)$ media.php?site=$1 [QSA,L]
+
+RewriteRule ^profile/id/(.*)/$ profile_web.php?id=$1 [QSA,L]
+RewriteRule ^profile/id/(.*)$ profile_web.php?id=$1 [QSA,L]
+
+RewriteRule ^profile/screen/(.*)/$ profile_web.php?screen=$1 [QSA,L]
+RewriteRule ^profile/screen/(.*)$ profile_web.php?screen=$1 [QSA,L]
+
+RewriteRule ^search/(.*)/$ search_web.php?text=$1 [QSA,L]
+RewriteRule ^search/(.*)$ search_web.php?text=$1 [QSA,L]
+
+RewriteRule ^new/all$ new_all_web.php [L]
+RewriteRule ^new/all/$ new_all_web.php [L]
+
+RewriteRule ^new/entame$ new_entame_web.php [L]
+RewriteRule ^new/entame/$ new_entame_web.php [L]
+
+RewriteRule ^new/anime$ new_anime_web.php [L]
+RewriteRule ^new/anime/$ new_anime_web.php [L]
+
+RewriteRule ^new/it$ new_it_web.php [L]
+RewriteRule ^new/it/$ new_it_web.php [L]
+
+RewriteRule ^new/learn$ new_learn_web.php [L]
+RewriteRule ^new/learn/$ new_learn_web.php [L]
+
+RewriteRule ^new/life$ new_life_web.php [L]
+RewriteRule ^new/life/$ new_life_web.php [L]
+
+RewriteRule ^new/politics$ new_politics_web.php [L]
+RewriteRule ^new/politics/$ new_politics_web.php [L]
+
+RewriteRule ^new/society$ new_society_web.php [L]
+RewriteRule ^new/society/$ new_society_web.php [L]
+
+RewriteRule ^tag/(.*)/$ tag_web.php?tag_id=$1 [QSA,L]
+RewriteRule ^tag/(.*)$ tag_web.php?tag_id=$1 [QSA,L]

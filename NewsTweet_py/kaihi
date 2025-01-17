@@ -1,0 +1,10 @@
+01-59/10 * * * * /usr/local/bin/python3 /home/sakura/python/repetition1.py
+02-59/10 * * * * /usr/local/bin/python3 /home/sakura/python/repetition2.py
+03-59/10 * * * * /usr/local/bin/python3 /home/sakura/python/repetition3.py
+04-59/10 * * * * /usr/local/bin/python3 /home/sakura/python/repetition4.py
+05-59/10 * * * * /usr/local/bin/python3 /home/sakura/python/repetition5.py
+06-59/10 * * * * /usr/local/bin/python3 /home/sakura/python/repetition6.py
+07-59/10 * * * * /usr/local/bin/python3 /home/sakura/python/repetition7.py
+08-59/10 * * * * /usr/local/bin/python3 /home/sakura/python/repetition8.py
+09-59/10 * * * * /usr/local/bin/python3 /home/sakura/python/repetition9.py
+00-59/10 * * * * /usr/local/bin/python3 /home/sakura/python/repetition0.py
