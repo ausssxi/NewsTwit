@@ -27,6 +27,7 @@ NewsPicksみたいなニュースにコメント付いている、サイトや�
 | phpmyadmin           | 
 | PHP                  | 
 | JavaScript           | 
+| Python               | 
 
 ## 3.ディレクトリ構成
 
